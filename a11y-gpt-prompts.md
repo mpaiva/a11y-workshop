@@ -82,6 +82,14 @@ Create a single list of native HTML components we will use. For each component, 
 
 ## 5. Outline the semantic structure of each page
 ```
-For each Gherkin story, imagine each page using only descriptive bullet points to outline the interface layout using these native components. Begin each page with the Gherkin story using the give, when, then statements. Please remember to add skip links to important sections. Suggest relevant content for headings, paragraphs, and labels, and be thorough with lists, adding at least 5 items as content examples. Be aware of alert messages needs, etc. Avoid using tables. Think of this task as designing with words.
+Think of this task as designing with words.
+For each Gherkin story, imagine each page using only descriptive bullet points to outline the interface layout using these native components.
+Begin each page with the Gherkin story using the give, when, and then statements.
+Please remember to add skip links to important sections.
+Suggest relevant content for headings, paragraphs, and labels.
+Be thorough with lists, adding at least five items as content examples.
+Consider alert messages needing to provide successful and unsuccessful patterns.
+Avoid using tables. 
+
 ```
 
