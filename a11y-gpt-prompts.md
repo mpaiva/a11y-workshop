@@ -90,44 +90,51 @@ Create a single list of native HTML components we will use. For each component, 
 
 ```
 Think of this task as designing with words.
-For each Gherkin story, imagine each page using only descriptive bullet points to outline the interface layout using these native components.
-Begin each page with the Gherkin story using the give, when, and then statements.
-Please remember to add skip links to important sections.
-Suggest relevant content for headings, paragraphs, and labels.
-After each heading 1 and heading 2, please provide a complementary paragraph describing plain language instructions to the user.
-Be thorough with lists, adding at least five items as content examples.
-Consider alert messages needing to provide successful and unsuccessful patterns.
-Avoid using tables. 
+
+For each Gherkin story, follow these eight steps:
+1. Imagine each page using only descriptive bullet points to outline the interface layout using these native components.
+2. Begin each page with the Gherkin story using the give, when, and then statements.
+3. Please remember to add skip links to important sections.
+4. Suggest relevant content for headings, paragraphs, and labels.
+5. Please include a complementary paragraph after each heading 1 and heading 2 describing plain-language instructions for the user.
+6. Be thorough with lists, adding at least five items as content examples.
+7. Consider alert messages needing to provide successful and unsuccessful patterns.
+8. Avoid using tables.
 ```
 
 ### 5.2 Long prompt for better consistency across LLMs
 
 ```
 Think of this task as designing with words.
-For each Gherkin story, imagine each page using only descriptive bullet points to outline the interface layout using these native components.
-Begin each page with the Gherkin story using the give, when, and then statements.
-Please remember to add skip links to important sections.
-Suggest relevant content for headings, paragraphs, and labels.
-After each heading 1 and heading 2, please provide a complementary paragraph describing plain language instructions to the user.
-Be thorough with lists, adding at least five items as content examples.
-Consider alert messages needing to provide successful and unsuccessful patterns.
-Avoid using tables.
 
-Stage and Page Naming Stage:
+For each Gherkin story, follow these eight steps:
+1. Imagine each page using only descriptive bullet points to outline the interface layout using these native components.
+2. Begin each page with the Gherkin story using the give, when, and then statements.
+3. Please remember to add skip links to important sections.
+4. Suggest relevant content for headings, paragraphs, and labels.
+5. Please include a complementary paragraph after each heading 1 and heading 2 describing plain-language instructions for the user.
+6. Be thorough with lists, adding at least five items as content examples.
+7. Consider alert messages needing to provide successful and unsuccessful patterns.
+8. Avoid using tables.
+
+Expected Output:
+
+1. Stage and Page Naming Stage:
 Clearly define the stage of the journey (e.g., "Stage 1: Job Searching").
 
-Page Name:
+2. Page Name:
 Provide a descriptive title for the page, reflecting the step of the journey (e.g., "Page 1: Accessing the Job Search Engine").
 
-Gherkin Story Structure Each page must begin with a Gherkin story to outline the user’s interaction in plain language.
-Use the Given, When, Then structure:
+3. Gherkin Story Structure:
+Each page must begin with a Gherkin story to outline the user’s interaction in plain language.
+Use the Given, When, Then (And) structure considering different assistive technologies and form factors:
 
 - Given: Describes the user and their initial context (e.g., "Given I am a blind user with a screen reader").
 - When: Specifies the user’s action on the page (e.g., "When I navigate to the job search engine").
 - Then: Describes the expected outcome or experience (e.g., "Then I should land on the homepage").
 - And: If necessary, add additional expectations or outcomes (e.g., "And the page should be accessible with clear headings and navigation").
 
-3. Interface Layout Sections
+4. Interface Layout Sections
 Break the page into clear interface sections using descriptive bullet points. Ensure that each section contains specific components with labels, headings, and content examples.
 
 Example:
@@ -170,7 +177,7 @@ List of clickable categories:
 - Marketing
 - IT
 
-4. [Form Sections] (if applicable)
+[Form Sections] (if applicable)
 When building forms, break them into logical sections with labels and input types. Ensure each input has an accessible label.
 
 Example:
@@ -183,15 +190,20 @@ Heading 2 (h2): "Personal Information"
 - Label: "Email Address"
 - Input field: Email input
 
-5. [Footer]
-Ensure that each page has consistent footer elements for navigation and legal links.
+[Footer]
+Could you make sure that each page has consistent footer elements for navigation and legal links?
 
-- Links to "Privacy Policy," "Accessibility Statement," and "Terms of Service"
+Links to:
+- "Privacy Policy,"
+- "Accessibility Statement,"
+- "Terms of Service"
 
-6. [Alert Messages] (if applicable)
+[Alert Messages] (if applicable)
 Include success or error messages based on user actions. Use ARIA live regions for screen reader announcements.
 
 - Success Message (aria-live="assertive"): "Your application has been submitted successfully!"
 - Error Message (aria-live="assertive"): "Please complete all required fields before submitting."
+
+5. End each page with Accessibility notes and recommendations for testing this content with users with multiple disabilities, including those in the neurodiversity spectrum.
 ```
 
