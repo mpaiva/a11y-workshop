@@ -1,11 +1,15 @@
 # Designing with words
 
+This design with words activity will help you outline a user-friendly, accessible interface for Jacob’s job search journey. Each page structure provides clear navigation, content hierarchy, and well-labeled forms to ensure screen reader users can easily engage with every component.
+
+## Goal
+
 - A step-by-step guide for Accessible Prototyping
 - These guidelines will help build a content-first mindset to create accessible experiences.
 
 **Poor Content Leads to Poor Accessibility**
 
-With this premise in mind, we encourage using a language model like ChatGPT to assist you in creating content. 
+With this premise in mind, we encourage the use of a language model like ChatGPT to help you create content. 
 
 ## Chat GPT Prompts for the Activities
 The following prompts were created as examples for the content-first activities at the workshop. 
