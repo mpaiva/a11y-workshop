@@ -191,7 +191,7 @@ Heading 2 (h2): "Personal Information"
 - Input field: Email input
 
 [Footer]
-Could you make sure that each page has consistent footer elements for navigation and legal links?
+Could you ensure each page has consistent footer elements for navigation and legal links?
 
 Links to:
 - "Privacy Policy,"
@@ -206,4 +206,44 @@ Include success or error messages based on user actions. Use ARIA live regions f
 
 5. End each page with Accessibility notes and recommendations for testing this content with users with multiple disabilities, including those in the neurodiversity spectrum.
 ```
+
+## 6. List of Components
+
+### 6.1 Create a list of components with Accessibility in mind
+
+```
+Create a list of the components required to create this experience.
+List the component name, description, WCAG considerations, and key interaction design recommendations for multiple disabilities, including - but not limited to - keyboard-only, screen reader, and neurodiversity.
+This list includes additional visible and invisible patterns that help create an equitable experience for people with disabilities, such as landmark regions, paragraphs, unordered list groups, items, form groups, fieldsets, accordion controls, tab groups, and more.
+Assume these components are coming from a design system like USWDS or Carbon.
+```
+
+### 6.2 Component Behavioral Stories
+
+```
+Create a gherkin story for each component listed. Where appropriate, consider multiple disabilities, such as blindness, low vision, hearing, motor impairment, and cognitive disabilities.
+```
+
+### 6.3 Component Anatomy
+
+```
+For each Gherkin story created for the components, I want you to display and create a markdown file of this output. Your important task is to put on your design system architect and years of digital accessibility and spec each component design aiming for the highest accessibility conformance level possible:
+- display the current gherkin story
+- list the expected interaction design and keystrokes and how/if tabs and arrow keys should used (this is something to pay attention, as different assistive technologies have different default preferences and customization)
+- list the anatomy of each component,
+- list all properties (Recommend width, height, target size, etc)
+- list all states (visual and ARIA where appropriate)
+- list all possible design tokens you can think of. As a starting point, you may consider the following: typography family color size line-height, color foreground background, spacing margin padding, focus width color style, border width color style, etc.
+- Mention whether any tokens could be directly aligned with an absolute value based on WCAG Token set.
+- Create a thorough, detailed checklist (with checkboxes) itemizing all possible WCAG success criteria for each team member to execute: product, design, development, and QA.
+
+After each story, show the number of stories left to be created, pause, and ask me to press continue.
+```
+
+
+
+
+
+
+
 
