@@ -31,10 +31,10 @@ To get the most out of this workshop, we recommend reviewing our [Prerequisites]
 ## About the Hosts
 
 ### Sarah Massengale
-Sarah is an accessibility specialist at McGraw Hill with over twenty years of lived experience as a blind individual. Learn more about Sarah's background and expertise in our [Hosts](hosts.md#sarah-massengale) section.
+Sarah is an accessibility specialist at McGraw Hill with over twenty years of lived experience as a blind individual. Learn more about Sarah on her [linkedin profile page](https://www.linkedin.com/in/sarah-massengale-408069165/).
 
 ### Marcelo Paiva
-Marcelo is the Accessibility Lead at the Rhonda Weiss Center for Accessible IDEA Data and creator of the WCAG plugin for Figma. Discover more about Marcelo's contributions to accessible design in our [Hosts](hosts.md#marcelo-paiva) section.
+Marcelo is the Accessibility Lead at the Rhonda Weiss Center for Accessible IDEA Data and creator of the WCAG plugin for Figma. Discover more about Marcelo's contributions to accessible design his [linkedin profile page](https://www.linkedin.com/in/mtpaiva/).
 
 ## Workshop Materials
 
@@ -53,5 +53,17 @@ After completing the workshop, don't forget to:
 - Fill out our [Feedback Form](feedback.md)
 - Check out additional [Learning Resources](learning-resources.md)
 - Join our [Community](community.md) of accessibility-minded designers
+
+## Workshop Prompts, Outputs, and Component Specs
+
+### Day 1
+- [Prompt 1](prompts/day1-prompt1.md) | [Output 1](outputs/day1-output1.md) | [Component Spec 1](component-specs/day1-spec1.md)
+- [Prompt 2](prompts/day1-prompt2.md) | [Output 2](outputs/day1-output2.md) | [Component Spec 2](component-specs/day1-spec2.md)
+- [Prompt 3](prompts/day1-prompt3.md) | [Output 3](outputs/day1-output3.md) | [Component Spec 3](component-specs/day1-spec3.md)
+
+### Day 2
+- [Prompt 4](prompts/day2-prompt4.md) | [Output 4](outputs/day2-output4.md) | [Component Spec 4](component-specs/day2-spec4.md)
+- [Prompt 5](prompts/day2-prompt5.md) | [Output 5](outputs/day2-output5.md) | [Component Spec 5](component-specs/day2-spec5.md)
+- [Prompt 6](prompts/day2-prompt6.md) | [Output 6](outputs/day2-output6.md) | [Component Spec 6](component-specs/day2-spec6.md)
 
 We're excited to have you join us for this transformative learning experience that will equip you with the skills and knowledge to design truly inclusive and accessible digital products!
