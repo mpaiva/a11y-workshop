@@ -234,6 +234,7 @@ For each Gherkin story created for the components, I want you to display and cre
 - list all properties (Recommend width, height, target size, etc)
 - list all states (visual and ARIA where appropriate)
 - list all possible design tokens you can think of. As a starting point, you may consider the following: typography family color size line-height, color foreground background, spacing margin padding, focus width color style, border width color style, etc.
+- list all WCAG criteria that are applicable to current component.
 - Mention whether any tokens could be directly aligned with an absolute value based on WCAG Token set.
 - Create a thorough, detailed checklist (with checkboxes) itemizing all possible WCAG success criteria for each team member to execute: product, design, development, and QA.
 
