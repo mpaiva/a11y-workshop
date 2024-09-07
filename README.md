@@ -20,50 +20,44 @@ Over the course of two days, we'll cover both fundamentals and advanced techniqu
 - Collaborating and handing off accessible components to developers
 - Leveraging design tokens for accessibility
 
-## Workshop Schedule
-
-For a detailed breakdown of the workshop schedule, please refer to our [Schedule](schedule.md) page.
-
-## Prerequisites
-
-To get the most out of this workshop, we recommend reviewing our [Prerequisites](prerequisites.md) document.
-
-## About the Hosts
-
-### Sarah Massengale
-Sarah is an accessibility specialist at McGraw Hill with over twenty years of lived experience as a blind individual. Learn more about Sarah on her [linkedin profile page](https://www.linkedin.com/in/sarah-massengale-408069165/).
-
-### Marcelo Paiva
-Marcelo is the Accessibility Lead at the Rhonda Weiss Center for Accessible IDEA Data and creator of the WCAG plugin for Figma. Discover more about Marcelo's contributions to accessible design his [linkedin profile page](https://www.linkedin.com/in/mtpaiva/).
 
 ## Workshop Materials
 
-- [Slides](materials/slides.md)
-- [Exercises](materials/exercises.md)
-- [Resources](materials/resources.md)
+These materials will be used throughout the workshop to guide our learning and activities. Please review them before the workshop begins.
 
-## Getting Help
+### General Guidelines
 
-If you need assistance during the workshop, please check our [FAQ](faq.md) or reach out to us through the [Support](support.md) channels.
+- [Accessibility-Focused Design Prompts](a11y-prompts.md) - Guidelines and prompts for designing with words and accessibility in mind
 
-## Post-Workshop
+### Component Specifications
+- [Accessible Accordion Design](component-specs/a11y-accordion.md) - Accessibility specifications for accordion components
+- [Accessible Autocomplete Implementation](component-specs/a11y-autocomplete.md) - Accessibility guidelines for autocomplete functionality
+- [Accessible Dropdown Menus](component-specs/a11y-dropdown.md) - Accessibility requirements for dropdown menus
+- [Accessible Modal Dialogs](component-specs/a11y-modal-dialog.md) - Accessibility considerations for modal dialogs
+- [Accessible Pagination Controls](component-specs/a11y-pagination.md) - Creating accessible pagination controls
+- [Accessible Search Bar Design](component-specs/a11y-search-bar.md) - Accessibility requirements for search bars
+- [Accessible Unordered Lists](component-specs/a11y-unordered-list.md) - Accessible unordered list implementation
 
-After completing the workshop, don't forget to:
+### Form Accessibility
+- [Accessible Error Messages](component-specs/a11y-error-messages.md) - Best practices for accessible error messages
+- [Fieldset and Legend Usage](component-specs/a11y-fieldset-legend.md) - Proper use of fieldset and legend for form accessibility
+- [Accessible Form Validation](component-specs/a11y-form-validation.md) - Accessible form validation techniques
+- [General Form Accessibility](component-specs/a11y-forms.md) - General accessibility guidelines for forms
 
-- Fill out our [Feedback Form](feedback.md)
-- Check out additional [Learning Resources](learning-resources.md)
-- Join our [Community](community.md) of accessibility-minded designers
+### Navigation and Structure
+- [ARIA Landmarks Guide](component-specs/a11y-landmarks.md) - Using ARIA landmarks for improved navigation
+- [Accessible Paragraph Structure](component-specs/a11y-paragraph.md) - Guidelines for accessible paragraph structure
+- [Implementing Skip Links](component-specs/a11y-skip-links.md) - Implementing skip links for keyboard navigation
 
-## Workshop Prompts, Outputs, and Component Specs
+### User Interaction
+- [Accessible Cursor Behavior](component-specs/a11y-cursor.md) - Considerations for cursor behavior and accessibility
 
-### Day 1
-- [Prompt 1](prompts/day1-prompt1.md) | [Output 1](outputs/day1-output1.md) | [Component Spec 1](component-specs/day1-spec1.md)
-- [Prompt 2](prompts/day1-prompt2.md) | [Output 2](outputs/day1-output2.md) | [Component Spec 2](component-specs/day1-spec2.md)
-- [Prompt 3](prompts/day1-prompt3.md) | [Output 3](outputs/day1-output3.md) | [Component Spec 3](component-specs/day1-spec3.md)
+### Design Outputs and User Stories
+- [Accessibility Prompt Examples](a11y-prompts-output.md) - Output examples for accessibility-focused design prompts
+- [Accessible Component Stories](a11y-stories-output-components.md) - User stories and outputs for accessible components
+- [Accessible User Journey Stories](a11y-stories-output-journeys.md) - User stories and outputs for accessible user journeys
 
-### Day 2
-- [Prompt 4](prompts/day2-prompt4.md) | [Output 4](outputs/day2-output4.md) | [Component Spec 4](component-specs/day2-spec4.md)
-- [Prompt 5](prompts/day2-prompt5.md) | [Output 5](outputs/day2-output5.md) | [Component Spec 5](component-specs/day2-spec5.md)
-- [Prompt 6](prompts/day2-prompt6.md) | [Output 6](outputs/day2-output6.md) | [Component Spec 6](component-specs/day2-spec6.md)
+## Bonus material
 
-We're excited to have you join us for this transformative learning experience that will equip you with the skills and knowledge to design truly inclusive and accessible digital products!
+- [Neurodiversity in UX Design](a11y-neurodiversity-ux.md) - Practical checklist for UX designers focusing on neurodiversity
+- [Accessibility Testing Protocols](ux-protocols.md) - UX research protocols for accessibility testing
