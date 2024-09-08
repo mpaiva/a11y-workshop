@@ -32,18 +32,28 @@ These materials will be used throughout the workshop to guide our learning and a
 - [Day 1 Slides](slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%201.pdf) - Presentation slides for Day 1 (PDF - 9.62 MB)
 - [Day 1 Figjam Activity File](https://www.figma.com/design/1234567890/Accessible-Design-Systems-Workshop) - Figjam activity file for Day 1
 
-### Design Outputs and User Stories
+### Prompts
 
 - [Accessibility-Focused Design Prompts](a11y-prompts.md) - Prompts for designing with words and accessibility in mind
 - [Accessibility Prompt Examples](a11y-prompts-output.md) - Output examples for accessibility-focused design prompts
 
 - [Accessible User Journey Stories](a11y-stories-output-journeys.md) - User stories and outputs for accessible user journeys
 
-### Design Outputs and User Stories
+
+## Day 2 
+
+### Slides:
+
+- [Day 2 Slides] - Presentation slides for Day 2 (PDF - 10.12 MB)
+- [Figma Design Files] - Figma design files for the workshop
+
+### Prompt output from day 1
+
+#### Gherkin Stories
 
 - [Accessible Component Stories](a11y-stories-output-components.md) - User stories and outputs for accessible components
 
-### Component Specifications
+#### Component Specifications
 - [Accessible Accordion Design](component-specs/a11y-accordion.md) - Accessibility specifications for accordion components
 - [Accessible Autocomplete Implementation](component-specs/a11y-autocomplete.md) - Accessibility guidelines for autocomplete functionality
 - [Accessible Dropdown Menus](component-specs/a11y-dropdown.md) - Accessibility requirements for dropdown menus
@@ -60,12 +70,6 @@ These materials will be used throughout the workshop to guide our learning and a
 - [Implementing Skip Links](component-specs/a11y-skip-links.md) - Implementing skip links for keyboard navigation
 
 
-## Day 2 
-
-### Slides:
-
-- [Day 2 Slides] - Presentation slides for Day 2 (PDF - 10.12 MB)
-- [Figma Design Files] - Figma design files for the workshop
 
 ## Bonus material
 
