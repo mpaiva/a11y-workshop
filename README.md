@@ -27,6 +27,11 @@ These materials will be used throughout the workshop to guide our learning and a
 
 ## Day 1
 
+### Slides:
+
+- [Day 1 Slides](slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%201.pdf) - Presentation slides for Day 1 (PDF - 9.62 MB)
+- [Day 1 Figjam Activity File](https://www.figma.com/design/1234567890/Accessible-Design-Systems-Workshop) - Figjam activity file for Day 1
+
 ### Design Outputs and User Stories
 
 - [Accessibility-Focused Design Prompts](a11y-prompts.md) - Prompts for designing with words and accessibility in mind
@@ -34,9 +39,7 @@ These materials will be used throughout the workshop to guide our learning and a
 
 - [Accessible User Journey Stories](a11y-stories-output-journeys.md) - User stories and outputs for accessible user journeys
 
-
-
-## Day 2 
+### Design Outputs and User Stories
 
 - [Accessible Component Stories](a11y-stories-output-components.md) - User stories and outputs for accessible components
 
@@ -57,7 +60,12 @@ These materials will be used throughout the workshop to guide our learning and a
 - [Implementing Skip Links](component-specs/a11y-skip-links.md) - Implementing skip links for keyboard navigation
 
 
+## Day 2 
 
+### Slides:
+
+- [Day 2 Slides] - Presentation slides for Day 2 (PDF - 10.12 MB)
+- [Figma Design Files] - Figma design files for the workshop
 
 ## Bonus material
 
