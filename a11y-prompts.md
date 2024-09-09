@@ -69,7 +69,10 @@ Include headline and description for each step of the journey.
 ## 3. Create Gherkin Stories
 
 ```
-Create a gherkin story for each step of the journey.
+Create a gherkin story for each step of the journey. Each Gherkin Story should be structured as follows:
+- Each page must begin with a Gherkin story to outline the user’s interaction in plain language.
+- Use the Given, When, Then (And) structure considering different assistive technologies and form factors.
+
 ```
 
 ## 4. Component Inventory
