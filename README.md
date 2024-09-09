@@ -30,7 +30,7 @@ These materials will be used throughout the workshop to guide our learning and a
 ### Slides:
 
 - [Day 1 Slides](slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%201.pdf) - Presentation slides for Day 1 (PDF - 9.62 MB)
-- [Day 1 Figjam Activity File](https://www.figma.com/design/1234567890/Accessible-Design-Systems-Workshop) - Figjam activity file for Day 1
+- [Day 1 Figjam Activity File](https://www.figma.com/board/Hbyijujgr9ntLGQ28ZMd9U/a11y--Workshop-Activities-%5BSep-2024%5D?node-id=2030-3626) - Figjam activity file for Day 1
 
 ### Prompts
 
