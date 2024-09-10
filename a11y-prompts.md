@@ -14,45 +14,131 @@ With this premise in mind, we encourage the use of a language model like ChatGPT
 ## Chat GPT Prompts for the Activities
 The following prompts were created as examples for the content-first activities at the workshop. 
 
-### 1. Prime the AI with Jacob's persona.
+
+## 1. Inclusive User Personas
+
+Creating inclusive user personas is a crucial step in designing accessible and user-friendly products. These personas help teams understand and empathize with a diverse range of users, including those with various abilities, backgrounds, and needs. Use the following prompt to generate an inclusive persona that will guide your design decisions throughout the development process.
+
+### Prompt
+
+Create an inclusive persona prompt that guides designers in developing user personas that represent a diverse range of abilities, backgrounds, and needs. The prompt should help teams understand and empathize with various users, including those with disabilities, different cultural backgrounds, and varying levels of technological proficiency.
+
+To use this prompt, copy the following text and paste it into ChatGPT:
+
+
 ```
-INTRODUCTION:
-I am creating a prototype for a fictitious job search engine to showcase the accessibility and user requirements for a candidate like Jacob. 
+TASK: CREATE INCLUSIVE PERSONAS
 
-NOTE:
-- Do NOT react to this request just yet.
-- I will give you specific tasks in the next prompt.
-- Just reply with an acknowledgement "Jobs for Jacobs!" 
+Help me create a random inclusive persona for my product in the [INDUSTRY NAME] industry, which generates revenue by [DOING WHAT?].
 
-USER PERSONA:
-Here's the persona I'd like to use as a reference for making sure the solution is accessible:
+Name: Choose a random name that reflects diversity but is neutral and common enough to avoid stereotypes.
+Age: Consider representing various age groups.
+Occupation: Focus on a random role that’s relevant to your product, but with inclusivity in mind. Is the person in a full-time job? Freelance? Unemployed? Caregiver?
 
-Jacob, Blind in love with technology.
-"The right technology lets me do anything."
+This persona should reflect users with random physical, cognitive, and sensory abilities. This includes those who are neurodiverse, visually or hearing impaired, or have physical disabilities. Intersectionality is good.
 
-Overview on Jacob
-- Jacob is a paralegal in a large law firm. He reviews cases and writes summaries, cross-referencing them to the firm’s own cases and clients. He’s building expertise in his area of law and is hoping to go to law school in a year or so.
-- As far as Jacob is concerned, it’s the technology that’s handicapped, not him. When everything is in place, he can work just as fast and just as effectively as anyone in his office.
-- He’s a bit of a gadget geek, always trying out new tools, looking for a little edge and something new. The last few years have been a lot of fun with all the new apps, and VoiceOver on his Mac and phone lets him use most of them pretty well. He likes the challenge of learning new tools.
-- His other challenge is running. He’s training for a 10K run, running with a club in his neighborhood and using an app to plan his routes and track his distance.
-- He’s just started to use The iPhone app, Passbook, and uses it to get train tickets and other travel. The regional rail system has an app, so he can just pull up the barcode and scan it at the ticket office. No fumbling for the right printed card—total independence. Same phone as everyone. Same app as everyone, and it all just works.
+Abilities: Describe whether the persona uses assistive technologies (e.g., screen readers, voice commands, adaptive keyboards).
+Cognitive Factors: Acknowledge learning disabilities (e.g., ADHD, dyslexia) and how they affect the way they interact with technology.
+Physical Factors: Include mobility limitations or chronic illnesses that may affect how long they can use a device.
 
-Snapshot of Jacob
-- 32 years old
-- College graduate, legal training courses
-- Shares an apartment with a friend
-- Paralegal, reviews cases and writes case summaries
-- Laptop, braille display, iPhone
+Outline how this persona interacts with technology and the digital world. What devices and software do they use, and how do they interact with websites and apps?
 
-The A’s
-- Ability: Blind since birth with some light perception
-- Aptitude: Skilled technology user
-- Attitude: Digital native, early adopter, persists until he gets it
+Preferred Devices: Are they on a smartphone most of the time? A desktop with assistive software?
+Usage Patterns: Do they rely on voice commands, magnifiers, or keyboard shortcuts?
 
-Assistive Technology
-- Screen reader (JAWS on his laptop, VoiceOver on his phone)
-- Audio recorder (to take notes)
-- Braille display
+Ensure you include context around the persona’s cultural background, language, and other factors that may shape their interaction with your product.
+
+Language Proficiency: Are they native speakers or do they rely on translation tools?
+Cultural Factors: How does their cultural background influence how they approach technology and inclusivity?
+Personal Preferences: What do they value in an app or product? Do they prefer minimalist designs, or are they more comfortable with feature-rich interfaces?
+
+Understand what this persona is trying to achieve and what barriers they face.
+Goals: What does the persona want to achieve with your product? (e.g., create content, find information, stay connected)
+Pain Points: What accessibility barriers or usability challenges does the persona encounter?
+
+To finish your task. End with a quote by the persona speaking directly to the product team.
+
+Name this conversation with the [Name - Occupation] given to this persona.
+
+Expected Output:
+
+# [Name] - [Occupation]
+
+---
+
+**Name**: [Name]  
+**Age**: [Age]  
+**Occupation**: [Occupation]  
+
+---
+
+## Abilities  
+- **[Ability 1]**: [Brief description of ability].  
+- **[Ability 2]**: [Brief description of ability].  
+
+---
+
+## Cognitive Factors  
+- **[Condition 1]**: [Explanation of cognitive condition or factor].  
+- **[Preferred Formats]**: [Preferred ways to consume content, e.g., audio, written, video].  
+
+---
+
+## Physical Factors  
+- **[Condition 1]**: [Description of physical condition and its impact].  
+- **[Tools/Adaptations]**: [Ergonomic tools or adaptations needed to perform tasks].  
+
+---
+
+## Interaction with Technology  
+- **Assistive Tools**: [Assistive technology or tools used, e.g., screen readers, adaptive keyboards].  
+- **Device Preferences**: [Devices commonly used, such as smartphone, tablet, desktop].  
+- **Adaptations**: [Any other adaptations for interacting with technology, such as magnification software or voice commands].  
+
+---
+
+## Preferred Devices  
+- **Primary Device**: [Preferred device for key tasks, e.g., desktop for research, smartphone for quick tasks].  
+- **Mobile Device**: [Secondary device used when on the go].  
+
+---
+
+## Usage Patterns  
+- **Frequent Activities**: [Most common tasks or activities performed].  
+- **Interaction Style**: [Preferred way of interacting with content, e.g., voice commands, keyboard shortcuts].  
+- **Appreciated Features**: [Features that enhance productivity or reduce distractions].  
+
+---
+
+## Cultural and Language Factors  
+- **Language Proficiency**: [Primary language and any additional languages].  
+- **Cultural Preferences**: [Cultural influences that affect content consumption or preferences for diversity].  
+
+---
+
+## Personal Preferences  
+- **Design Preferences**: [Preferences regarding interface design, such as minimalist layouts, accessibility features].  
+- **Accessibility Features**: [Required accessibility features, such as high contrast mode, customizable font sizes].  
+
+---
+
+## Goals  
+- **[Goal 1]**: [Specific goal related to their tasks or profession].  
+- **[Goal 2]**: [Another key goal or aspiration].  
+
+---
+
+## Pain Points  
+- **[Pain Point 1]**: [Description of a common challenge or frustration].  
+- **[Pain Point 2]**: [Additional challenges that affect productivity or ease of use].  
+
+---
+
+## Quote  
+*"Insert a relevant quote or personal statement here."*
+
+---
+
 ```
 
 ## 2. Create User Journey Map
