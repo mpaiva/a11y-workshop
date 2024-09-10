@@ -59,6 +59,19 @@ Assistive Technology
 
 ```
 TASK: USER JOURNEY MAP
+Create a high-level user journey map outlining the steps my user persona might take to [DESCRIBE END-USER’S GOAL - WHY ARE THEY USING YOUR PRODUCT?] using the following stages. Breakdown the stages in steps for this journey: 
+
+- Stage 1: [DESCRIPTIVE STAGE NAME]
+- Stage 2: [DESCRIPTIVE STAGE NAME]
+- Stage 3: [DESCRIPTIVE STAGE NAME]
+
+Please include HEADLINE and DESCRIPTION for each step of the journey.
+```
+
+
+### Example:
+```
+TASK: USER JOURNEY MAP
 Create a high-level user journey map outlining the steps Jacob might take on the website to find his next job opportunity using the following stages. Breakdown the stages in steps for this journey: 
 - Stage 1: Job Searching
 - Stage 2: Reviewing Job Descriptions
@@ -69,46 +82,18 @@ Include headline and description for each step of the journey.
 ## 3. Create Gherkin Stories
 
 ```
+TASK: CREATE GHERKIN STORIES
 Create a gherkin story for each step of the journey. Each Gherkin Story should be structured as follows:
 - Each page must begin with a Gherkin story to outline the user’s interaction in plain language.
 - Use the Given, When, Then (And) structure considering different assistive technologies and form factors.
 
 ```
 
-## 4. Component Inventory
-
-### 4.1 Extract components from gherkin stories
-```
-Take each gherkin story and create a list of components or user controls each step will require.
-```
-
-### 4.2 Create a single inventory of web components
-```
-Create a single list of native HTML components we will use. For each component, add a title, description, role, and accessible name along with accessibility notes.
-```
-
-## 5. Outline the semantic structure of each page
-
-### 5.1 Short prompt
+## 4. Outline the semantic structure of each page
 
 ```
-Think of this task as designing with words.
-
-For each Gherkin story, follow these eight steps:
-1. Imagine each page using only descriptive bullet points to outline the interface layout using these native components.
-2. Begin each page with the Gherkin story using the give, when, and then statements.
-3. Please remember to add skip links to important sections.
-4. Suggest relevant content for headings, paragraphs, and labels.
-5. Please include a complementary paragraph after each heading 1 and heading 2 describing plain-language instructions for the user.
-6. Be thorough with lists, adding at least five items as content examples.
-7. Consider alert messages needing to provide successful and unsuccessful patterns.
-8. Avoid using tables.
-```
-
-### 5.2 Long prompt for better consistency across LLMs
-
-```
-Think of this task as designing with words.
+TASK: DESIGN WITH WORDS
+Think of this task as designing with words, where you get to describe the interface to someone without drawing it.
 
 For each Gherkin story, follow these eight steps:
 1. Imagine each page using only descriptive bullet points to outline the interface layout using these native components.
@@ -210,26 +195,30 @@ Include success or error messages based on user actions. Use ARIA live regions f
 5. End each page with Accessibility notes and recommendations for testing this content with users with multiple disabilities, including those in the neurodiversity spectrum.
 ```
 
-## 6. List of Components
 
-### 6.1 Create a list of components with Accessibility in mind
+
+## 5. Components Inventory
 
 ```
-Create a list of the components required to create this experience.
+TASK: EXTRACT COMPONENTS
+Take each gherkin story for each step of the journey and create a list of components or user controls each step will require.
+
 List the component name, description, WCAG considerations, and key interaction design recommendations for multiple disabilities, including - but not limited to - keyboard-only, screen reader, and neurodiversity.
 This list includes additional visible and invisible patterns that help create an equitable experience for people with disabilities, such as landmark regions, paragraphs, unordered list groups, items, form groups, fieldsets, accordion controls, tab groups, and more.
 Assume these components are coming from a design system like USWDS or Carbon.
 ```
 
-### 6.2 Create a Gherkin Story for each component
+## 6. Create Components Requirements
 
 ```
+TASK: WRITE GHERKIN STORIES FOR EACH COMPONENT
 Create a gherkin story for each component listed. Where appropriate, consider multiple disabilities, such as blindness, low vision, hearing, motor impairment, and cognitive disabilities.
 ```
 
-### 6.3 Describe Component Anatomy
+## 7.Component Requirements
 
 ```
+TASK: WRITE REQUIREMENTS FOR EACH COMPONENT
 For each Gherkin story created for the components, I want you to display and create a markdown file of this output. Your important task is to put on your design system architect and years of digital accessibility and spec each component design aiming for the highest accessibility conformance level possible:
 - display the current gherkin story
 - list the expected interaction design and keystrokes and how/if tabs and arrow keys should used (this is something to pay attention, as different assistive technologies have different default preferences and customization)
