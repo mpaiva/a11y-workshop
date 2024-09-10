@@ -221,13 +221,13 @@ This list includes additional visible and invisible patterns that help create an
 Assume these components are coming from a design system like USWDS or Carbon.
 ```
 
-### 6.2 Component Behavioral Stories
+### 6.2 Create a Gherkin Story for each component
 
 ```
 Create a gherkin story for each component listed. Where appropriate, consider multiple disabilities, such as blindness, low vision, hearing, motor impairment, and cognitive disabilities.
 ```
 
-### 6.3 Component Anatomy
+### 6.3 Describe Component Anatomy
 
 ```
 For each Gherkin story created for the components, I want you to display and create a markdown file of this output. Your important task is to put on your design system architect and years of digital accessibility and spec each component design aiming for the highest accessibility conformance level possible:
