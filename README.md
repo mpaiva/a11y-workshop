@@ -38,7 +38,7 @@ These materials will be used throughout the workshop to guide our learning and a
 ### Slides:
 
 - [Day 2 Slides](/slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%202.pdf) - Presentation slides for Day 2 (PDF - 10.12 MB)
-- [Bonus SLides](/slides/Accessible%20Design%20Systems%20Workshop%20-%20Bonus.pdf) - Figma design files for the workshop
+- [Bonus Slides](/slides/Accessible%20Design%20Systems%20Workshop%20-%20Bonus.pdf) - Figma design files for the workshop
 
 ### Prompts
 
