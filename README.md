@@ -29,15 +29,8 @@ These materials will be used throughout the workshop to guide our learning and a
 
 ### Slides:
 
-- [Day 1 Slides](slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%201.pdf) - Presentation slides for Day 1 (PDF - 9.62 MB)
+- [Day 1 Slides](slides/Accessible%20Design%20Systems%20Workshop%20-%20Day%201.pdf) - Presentation slides for Day 1 (PDF - 10.6 MB)
 - [Day 1 Figjam Activity File](https://www.figma.com/board/Hbyijujgr9ntLGQ28ZMd9U/a11y--Workshop-Activities-%5BSep-2024%5D?node-id=2030-3626) - Figjam activity file for Day 1
-
-### Prompts
-
-- [Accessibility-Focused Design Prompts](a11y-prompts.md) - Prompts for designing with words and accessibility in mind
-- [Accessibility Prompt Examples](a11y-prompts-output.md) - Output examples for accessibility-focused design prompts
-
-- [Accessible User Journey Stories](a11y-stories-output-journeys.md) - User stories and outputs for accessible user journeys
 
 
 ## Day 2 
@@ -47,13 +40,20 @@ These materials will be used throughout the workshop to guide our learning and a
 - [Day 2 Slides] - Presentation slides for Day 2 (PDF - 10.12 MB)
 - [Figma Design Files] - Figma design files for the workshop
 
-### Prompt output from day 1
+### Prompts
 
-#### Gherkin Stories
+This section contains a collection of prompts and examples designed to guide you through the process of creating accessible designs. These resources will help you consider accessibility from the outset of your design process, ensuring that your work is inclusive and user-friendly for all individuals, regardless of their abilities.
 
-- [Accessible Component Stories](a11y-stories-output-components.md) - User stories and outputs for accessible components
+- [Accessibility-Focused Design Prompts](a11y-prompts.md) - Prompts for designing with words and accessibility in mind
+- [Accessibility Prompt Examples](a11y-prompts-output.md) - Output examples for accessibility-focused design prompts
+- [Accessible User Journey Stories](a11y-stories-output-journeys.md) - User stories and outputs for accessible user journeys
+
 
 #### Component Specifications
+
+These documents provide accessibility specifications for various UI components. They cover basic elements to complex interactive features, serving as a reference to ensure your design system meets accessibility standards and offers an inclusive user experience.
+
+- [Accessible Component Stories](a11y-stories-output-components.md) - User stories and outputs for accessible components
 - [Accessible Accordion Design](component-specs/a11y-accordion.md) - Accessibility specifications for accordion components
 - [Accessible Autocomplete Implementation](component-specs/a11y-autocomplete.md) - Accessibility guidelines for autocomplete functionality
 - [Accessible Dropdown Menus](component-specs/a11y-dropdown.md) - Accessibility requirements for dropdown menus
@@ -75,3 +75,5 @@ These materials will be used throughout the workshop to guide our learning and a
 
 - [Neurodiversity in UX Design](a11y-neurodiversity-ux.md) - Practical checklist for UX designers focusing on neurodiversity
 - [Accessibility Testing Protocols](ux-protocols.md) - UX research protocols for accessibility testing
+- [Accessibility Resources](https://mpaiva.github.io/a11y-links/) - Accessibility Resources & ToolsFor Designers and Developers
+
