@@ -70,10 +70,13 @@ These documents provide accessibility specifications for various UI components. 
 - [Implementing Skip Links](component-specs/a11y-skip-links.md) - Implementing skip links for keyboard navigation
 
 
-
 ## Bonus material
 
 - [Neurodiversity in UX Design](a11y-neurodiversity-ux.md) - Practical checklist for UX designers focusing on neurodiversity
 - [Accessibility Testing Protocols](ux-protocols.md) - UX research protocols for accessibility testing
 - [Accessibility Resources](https://mpaiva.github.io/a11y-links/) - Accessibility Resources & ToolsFor Designers and Developers
+
+## Updates
+
+- [Accessibility Review Sessions](a11y-accessibility-review-sessions.md) - How to conduct an accessibility review session.
 
