@@ -1,10 +1,17 @@
-## Conducting an Accessibility Review Session
+# Conducting an Accessibility Review Session
 
-### Objective
+## Objective
 
 To conduct an effective accessibility review session with an accessibility specialist, prepare design files, annotate for accessibility, and document components for collaboration with the development team.
 
-### Key Steps
+## Resource File
+## Resource File
+
+This Figma template provides a comprehensive example for conducting accessibility review sessions. It includes annotated designs, component specifications, and guidelines for effective collaboration between designers and developers.
+
+- [Figma Template](https://www.figma.com/design/8VbtODs4PgnlBn0TQ8LNCg/%5BIDS%5D-Workshop-Example---Sep-2024?node-id=2-15339&t=Krg0NKKKOA51sWM7-1)
+
+## Key Steps
 
 1. **Understanding Accessibility**
 
@@ -25,20 +32,20 @@ To conduct an effective accessibility review session with an accessibility speci
    - Document with Include plugin for collaboration with engineers.
 
 
-        #### While Designing
+        ### While Designing
 
         - [Stark](https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker) - Provides a suite of accessibility tools including color contrast checkers, vision simulators, and alt-text reminders.
         - [EightShapes Spec](https://www.figma.com/community/plugin/1205622541257680763/eightshapes-specs) - Document component anatomy, properties, layout and spacings.
 
-        #### While Reviewing with Specialists
+        ### While Reviewing with Specialists
 
         - [WCAG Plugin](https://www.figma.com/community/plugin/1373362852131056921/wcag-plugin) - Drop WCAG cards directly into your design files. Includes an accessibility token-set with values recommendations. 
 
-        #### While Documenting
+        ### While Documenting
 
         - [Include](https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations) - Document your design step-by-step for web or mobile using a simple checklist and annotation tools. 
 
-        #### Other plugins to try:
+        ### Other plugins to try:
 
         - [A11y - Focus Order](https://www.figma.com/community/plugin/731310036968334777/a11y-focus-order) - Allows you to annotate the tab order of elements in your design to ensure logical keyboard navigation.
         - [Adee Comprehensive Accessibility Tool](https://www.figma.com/community/plugin/931280467863251825/adee-comprehensive-accessibility-tool) - Offers a comprehensive set of accessibility tools including color contrast, text spacing, and element order checks.
@@ -52,13 +59,13 @@ To conduct an effective accessibility review session with an accessibility speci
    - Collaborate with developers during development for implementation and feedback.
    - Perform pre-launch testing with QA engineers to ensure design implementation.
 
-### Cautionary Notes
+## Cautionary Notes
 
 - Ensure all annotations are clear and concise for easy understanding.
 - Double-check color contrast and focus order for accessibility compliance.
 - Collaborate with accessibility specialists and team members for accurate implementation.
 
-### Tips for Efficiency
+## Tips for Efficiency
 
 - Use plugins consistently for color contrast, text sizes, and WCAG guidelines.
 - Educate team members on accessibility guidelines and best practices.
