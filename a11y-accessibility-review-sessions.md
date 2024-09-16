@@ -1,8 +1,28 @@
-# Conducting an Accessibility Review Session
+# Accessibility Notations
+
+- [Watch the Video](https://www.loom.com/share/ea1e86cbeee347c5b3e84f48e012825b)
+- [Download the Figma Template](https://www.figma.com/design/8VbtODs4PgnlBn0TQ8LNCg/%5BIDS%5D-Workshop-Example---Sep-2024?node-id=2-15339&t=Krg0NKKKOA51sWM7-1)
 
 ## Objective
 
-To conduct an effective accessibility review session with an accessibility specialist, prepare design files, annotate for accessibility, and document components for collaboration with the development team.
+Accessibility notations are visual annotations and documentation added to design files to communicate important accessibility considerations and requirements. These notations serve as a crucial bridge between designers, developers, and other stakeholders, ensuring that accessibility features are properly implemented throughout the development process.
+
+Key aspects of accessibility notations include:
+
+1. Visual Markers: Symbols, icons, or color-coded elements that highlight specific accessibility features or potential issues within the design.
+
+2. Textual Descriptions: Detailed explanations of accessibility requirements, such as alternative text for images, keyboard navigation instructions, or ARIA roles and properties.
+
+3. Structural Information: Annotations that indicate the proper heading hierarchy, landmark regions, and content organization for screen reader users.
+
+4. Interaction Patterns: Notes on expected behavior for interactive elements, focusing on keyboard accessibility and screen reader announcements.
+
+5. Color and Contrast Information: Documentation of color contrast ratios and explanations of how color is used to convey information.
+
+6. Responsive Design Considerations: Notes on how accessibility features should adapt across different screen sizes and devices.
+
+7. WCAG Success Criteria: References to specific Web Content Accessibility Guidelines (WCAG) criteria that the design aims to meet.
+
 
 ## Resource File
 
@@ -12,7 +32,7 @@ This Figma template provides a comprehensive example for conducting accessibilit
 
 ## Key Steps
 
-### 1. Understanding Accessibility
+### 1. Understanding Accessibility Notations
 
    - Learn about accessibility and its importance for consistent communication.
    - Engage with accessibility specialists early in the design process.
@@ -24,11 +44,7 @@ This Figma template provides a comprehensive example for conducting accessibilit
    - Text alternatives: Describe images, media, and icons for assistive technology users.
 
 ### 3. Accessibility Plugins
-
-   - Use Stark for color contrast and text sizes during design.
-   - Utilize H-shaped specs for documenting component anatomy.
-   - Employ WCAG plugin during review sessions to identify violations and guidelines.
-   - Document with Include plugin for collaboration with engineers.
+Utilize various Figma plugins to enhance your accessibility workflow during different stages of the design process. These plugins assist in checking color contrast, documenting specifications, reviewing WCAG guidelines, and creating accessibility annotations. Here's a breakdown of recommended plugins for each stage:
 
 
 #### While Designing
@@ -72,7 +88,3 @@ This Figma template provides a comprehensive example for conducting accessibilit
 - Educate team members on accessibility guidelines and best practices.
 - Document components thoroughly for easy reference and collaboration.
 - Prioritize triple A level accessibility standards for the highest level of accessibility.
-
-Link to Loom
-
-https://www.loom.com/share/ea1e86cbeee347c5b3e84f48e012825b
