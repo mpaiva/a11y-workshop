@@ -10,7 +10,7 @@ Explore strategies for designing neurodiverse-friendly digital products using WC
 
 [Marcelo Paiva](https://www.linkedin.com/in/mtpaiva/) and [Sarah Massengale](https://www.linkedin.com/in/sarah-massengale-408069165/)
 
-[Download Presentation](/slides/[CSUN-2025]%20Designing%20for%20Neurodiversity.pdf) (PDF - 3.7 MB)
+[Download Presentation](slides/CSUN-2025-Designing-for-Neurodiversity.pdf) (PDF - 3.7 MB)
 
 ---
 
