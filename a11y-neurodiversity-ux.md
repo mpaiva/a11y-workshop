@@ -1,7 +1,16 @@
-
 # Practical Checklist for UX Designers: Designing for Neurodiversity
 
 This checklist provides actionable steps to ensure your designs are inclusive and accessible for neurodiverse users, covering ADHD, autism, dyslexia, anxiety, depression, and more.
+
+## CSUN 2025
+
+### Product Design for Neurodiversity
+
+Explore strategies for designing neurodiverse-friendly digital products using WCAG guidelines. Discover new UX patterns and interactions tailored for neurodiversity, and learn practical approaches to reduce cognitive load and create inclusive, personalized user experiences.
+
+[Marcelo Paiva](https://www.linkedin.com/in/mtpaiva/) and [Sarah Massengale](https://www.linkedin.com/in/sarah-massengale-408069165/)
+
+[Download Presentation](/slides/[CSUN-2025]%20Designing%20for%20Neurodiversity.pdf) (PDF - 3.7 MB)
 
 ---
 
@@ -59,7 +68,6 @@ Scenario: A person with dyslexia needing readable fonts
 
 - **AI-driven adaptation:** Allow AI to learn user behavior and adjust the interface, such as reducing distractions for a person with ADHD or simplifying language for a person with limited proficiency.
 
-
 ---
 
 ## 2. Managing Cognitive Load
@@ -106,7 +114,7 @@ Scenario: A person experiencing anxiety needing spaced-out information
 - **1.4.8 Visual Presentation (Level AAA):** Ensure enough spacing between content for people with ADHD or anxiety to process the information more easily.
 - **2.4.10 Section Headings (Level AAA):** Ensure that content is clearly divided and organized for those who may struggle with processing large amounts of information, such as individuals with attention difficulties.
 
-### Design Systems Patterns 
+### Design Systems Patterns
 
 - **Progressive Disclosure:** A design system pattern for revealing information in small, manageable steps to prevent cognitive overload.
 - **Consistent Layouts:** Ensuring all screens maintain a consistent design to reduce confusion for people who prefer predictability, like those on the autism spectrum.
@@ -143,7 +151,7 @@ Scenario: A person with dyslexia needing high-contrast text
   Then I should see high-contrast text with a minimum contrast ratio of 4.5:1
   And I should not see any visual clutter in the text
 
-Scenario: A person experiencing anxiety needing calming transitions 
+Scenario: A person experiencing anxiety needing calming transitions
   Given I am an anxious user
   When I navigate through the interface
   Then I should see transitions that are not too sudden or animated
@@ -156,12 +164,11 @@ Scenario: A person experiencing anxiety needing calming transitions
 - **☐** Do you offer **personalization** for visual elements like color themes, animations, and text styles?
 - **☐** Have you provided **contrast control** to ensure readable text without causing visual strain?
 
-
 ### WCAG Recommendations
 
 - **2.3.3 Animation from Interactions (Level AAA):** Avoid using unexpected motion that could overwhelm someone with sensory sensitivities.
 - **1.4.3 Contrast (Minimum) (Level AA):** Ensure sufficient contrast between text and background for readability, supporting users with dyslexia.
- - **1.4.11 Non-text Contrast (Level AA):** Ensure that text and background have a contrast ratio of 4.5:1 to reduce eye strain and improve readability.
+- **1.4.11 Non-text Contrast (Level AA):** Ensure that text and background have a contrast ratio of 4.5:1 to reduce eye strain and improve readability.
 - **1.4.12 Text Spacing (Level AA):** Customize text spacing to help people with dyslexia or anxiety read more comfortably.
 - **1.4.8 Visual Presentation (Level AAA):** Ensure enough spacing between content for people with ADHD or anxiety to process the information more easily.
 - **2.1.1 Keyboard (Level A):** Ensure that all functionality can be accessed via a keyboard to support users who cannot use a mouse.
@@ -174,10 +181,9 @@ Scenario: A person experiencing anxiety needing calming transitions
 
 ### Personalization with AI
 
-- **AI-driven adaptation:** Allow AI to learn user behavior and adjust the interface, such as reducing distractions for a person with ADHD or simplifying language for a person with limited proficiency. 
-- **AI-adjusted sensory inputs:** AI can detect when a user repeatedly adjusts visual settings (e.g., reducing motion or changing color themes) and automatically optimize the interface based on these preferences.  
+- **AI-driven adaptation:** Allow AI to learn user behavior and adjust the interface, such as reducing distractions for a person with ADHD or simplifying language for a person with limited proficiency.
+- **AI-adjusted sensory inputs:** AI can detect when a user repeatedly adjusts visual settings (e.g., reducing motion or changing color themes) and automatically optimize the interface based on these preferences.
 
-    
 ---
 
 ## 4. Personalization and Customization
@@ -234,7 +240,7 @@ Scenario: A person on the autism spectrum needing clear navigation paths
 ### Personalization with AI
 
 - **AI-driven adaptation:** Allow AI to learn user behavior and adjust the interface, such as reducing distractions for a person with ADHD or simplifying language for a person with limited proficiency.
-- **AI-adjusted sensory inputs:** AI can detect when a user repeatedly adjusts visual settings (e.g., reducing motion or changing color themes) and automatically optimize the interface based on these preferences.  
+- **AI-adjusted sensory inputs:** AI can detect when a user repeatedly adjusts visual settings (e.g., reducing motion or changing color themes) and automatically optimize the interface based on these preferences.
 - **AI-driven content adaptation:** AI can adjust the content and presentation of information based on the user's preferences and needs, such as simplifying language or adjusting the complexity of the information presented.
 - **AI-driven navigation adaptation:** AI can adjust the navigation structure and options based on the user's preferences and needs, such as providing step-by-step guidance for a person with ADHD or offering a non-linear navigation structure for a person on the autism spectrum.
 
@@ -315,7 +321,7 @@ Scenario: A person experiencing anxiety needing clear, concise navigation
 - A person with limited language proficiency may need multilingual support or simplified language.
 - A person experiencing anxiety may need calming, supportive language.
 
-### User Scenarios  
+### User Scenarios
 
 ```gherkin
 Scenario: A person with dyslexia needing simplified language and larger text
@@ -323,7 +329,7 @@ Scenario: A person with dyslexia needing simplified language and larger text
   When I read text on the website
   Then I should see simplified language and larger text
   And I should not see any visual clutter in the text
- 
+
 Scenario: A person with limited language proficiency needing multilingual support
   Given I have limited language proficiency
   When I interact with the website
@@ -410,6 +416,7 @@ Scenario: A person experiencing anxiety needing calming error messages
 ```
 
 ### Checkpoints
+
 - **☐** Are error messages clear, **supportive**, and actionable, reducing stress for users with anxiety or cognitive disabilities?
 - **☐** Are errors **clearly identified** and explained in plain language, with suggestions for resolving the issue?
 - **☐** Does your design offer **immediate feedback** to prevent frustration (especially for people with ADHD)?
@@ -488,7 +495,7 @@ Scenario: A person using a screen reader configuring navigation landmarks
 - **AI-driven accommodation adjustments:** AI can remember user preferences and automatically apply the necessary adjustments to text size, spacing, layout, or navigation on future visits. The AI can also recommend certain accessibility settings based on observed usage patterns, such as suggesting larger fonts or simpler layouts for users who frequently adjust settings.
 - **AI-driven language adaptation:** AI can adapt the language of the interface based on the user's language proficiency and preferences. This could involve providing translations, using simpler language, or using jargon-specific terminology.
 
---- 
+---
 
 ## Final recommendation for User Testing and Feedback
 
@@ -516,7 +523,6 @@ To ensure your design truly meets the needs of neurodiverse users and those with
 
 10. **Cross-functional Team Involvement:** Involve team members from various disciplines (design, development, content, etc.) in user testing sessions to ensure a holistic understanding of neurodiverse user needs.
 
-
 ## Conclusion
 
 This practical checklist for UX designers focusing on neurodiversity has covered essential aspects of creating inclusive and accessible digital experiences. We've explored understanding neurodiversity needs, managing cognitive load, addressing sensory sensitivities, and implementing personalization strategies. By following these guidelines and recommendations, designers can create interfaces that cater to a wide range of cognitive differences and abilities.
@@ -528,9 +534,3 @@ We invite you to share your thoughts, experiences, or questions about designing 
 Together, we can create a more inclusive digital world that embraces and supports neurodiversity. 💕
 
 — Marcelo Paiva
-
-
-
-
-
-
